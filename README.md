@@ -13,3 +13,22 @@ Feature	Description
 🎨 Color Psychology Matching	Suggests colors based on mood and fashion theory
 ✍️ Caption & Hashtag Generator	Creates mood-aligned social media captions using Ollama
 🛍️ Accessory Recommendations	Suggests shoes, bags, and more to enhance the full look
+
+# 🧘‍♀️👕 MoodWear AI – Mood-Based Outfit Recommender
+
+MoodWear AI is a fashion-tech AI project that recommends outfits based on user mood, weather, and event using local LLMs like TinyLLaMA.
+
+## 🚀 Features
+- Mood detection using sentiment analysis
+- Smart outfit suggestions
+- Instagram caption generation via Ollama
+- Context-aware fashion planning
+
+## 💻 How to Run
+
+```bash
+git clone https://github.com/yourusername/MoodWear-AI.git
+cd MoodWear-AI
+pip install -r requirements.txt
+ollama run tinyllama
+streamlit run app.py
